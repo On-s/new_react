@@ -1,5 +1,6 @@
-import React,{Component} from "react";
+import React,{Component} from 'react';
 import MyComponent from "./MyComponent"; // new Component load
+import EventPractice from "./EventPractice";
 
 class App extends Component {
   render(){
@@ -7,6 +8,7 @@ class App extends Component {
       <div>
         <h1>Hello react !</h1>
         <MyComponent name = 'On' age = {5} />
+        <EventPractice/>
       </div>
     )
   }
