@@ -26,6 +26,7 @@ class MyComponent extends Component {
             number : this.state.number +5
           });
         }}>
+          증가
         </button>
         
         <button onClick={()=> {
@@ -33,7 +34,7 @@ class MyComponent extends Component {
             number : 0
           })
         }}>
-
+          초기화
         </button>
       </div>
     )
