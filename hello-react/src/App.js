@@ -7,8 +7,8 @@ class App extends Component {
     return (
       <div>
         <h1>Hello react !</h1>
-        <MyComponent name = 'On' age = {5} />
         <EventPractice/>
+        <MyComponent name = 'On' age = {5} />
       </div>
     )
   }
